@@ -1,2 +1,2 @@
 # AppComenius
-Repositorio para el segundo TP de admnistracion de proyectos.
+Repositorio para el segundo TP de administracion de proyectos.
