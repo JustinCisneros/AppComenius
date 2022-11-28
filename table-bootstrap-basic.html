@@ -16,6 +16,9 @@
 	
 	<!-- PAGE TITLE HERE -->
 	<title>Tabla-Alumnos</title>
+
+	<title>Admin Dashboard</title>
+
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
@@ -798,6 +801,7 @@
 				<ul class="metismenu" id="menu">
                     <li><a class="has-arrow " href="javascript:void()" aria-expanded="false">
 							<i class="fas fa-home"></i>
+
 							<span class="nav-text">Home</span>
 						</a>
                         <ul aria-expanded="false">
@@ -808,6 +812,16 @@
 					
 							<li><a href="calendar-page.html">Calendario</a></li>
 							<li><a href="message.html">Mensajes</a></li>	
+
+							<span class="nav-text">Comenius</span>
+						</a>
+                        <ul aria-expanded="false">
+							<li><a href="index.html">Dashboard Light</a></li>
+							
+							<li><a href="contacts.html">Contacts</a></li>
+					
+							<li><a href="calendar-page.html">Calendar</a></li>
+							<li><a href="message.html">Messages</a></li>	
 						</ul>
 
                     </li>
@@ -886,7 +900,12 @@
                 </div>
                 <!-- row -->
 
+
                 <div class="row">
+
+					
+				<div class="row">
+
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
@@ -898,22 +917,49 @@
                                         <thead>
                                             <tr>
                                                 <th style="width:80px;"><strong>#</strong></th>
+
                                                 <th><strong>PATIENT</strong></th>
                                                 <th><strong>DR NAME</strong></th>
                                                 <th><strong>DATE</strong></th>
                                                 <th><strong>STATUS</strong></th>
                                                 <th><strong>PRICE</strong></th>
                                                 <th></th>
+
+                                                <th><strong>NOMBRE</strong></th>
+                                                <th><strong>APELLIDO</strong></th>
+                                                <th><strong>CARRERA</strong></th>
+                                                <th><strong>ESTADO</strong></th>
+                                                <th><strong>CUOTA</strong></th>
+												<th><div class="dropdown">
+													<button type="button" class="btn btn-white light sharp" data-bs-toggle="dropdown">
+														<svg width="20px" height="20px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
+													</button>
+													<div class="dropdown-menu">
+														<a class="dropdown-item" href="#">SISTEMAS</a>
+															<a class="dropdown-item" href="#">WEB</a>
+															<a class="dropdown-item" href="#">MULTIMEDIAL</a>
+															<a class="dropdown-item" href="#">GRAfICO</a>
+													</div>
+												</div>
+											</th>
+                                             
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td><strong>01</strong></td>
+
                                                 <td>Mr. Bobby</td>
                                                 <td>Dr. Jackson</td>
                                                 <td>01 August 2020</td>
                                                 <td><span class="badge light badge-success">Successful</span></td>
                                                 <td>$21.56</td>
+
+                                                <td>JUSTIN</td>
+                                                <td>CISNEROS</td>
+                                                <td>SISTEMAS</td>
+                                                <td><span class="badge light badge-success">REGULAR</span></td>
+                                                <td>$20.000</td>
                                                 <td>
 													<div class="dropdown">
 														<button type="button" class="btn btn-success light sharp" data-bs-toggle="dropdown">
@@ -928,11 +974,46 @@
                                             </tr>
 											<tr>
                                                 <td><strong>02</strong></td>
+
                                                 <td>Mr. Bobby</td>
                                                 <td>Dr. Jackson</td>
                                                 <td>01 August 2020</td>
                                                 <td><span class="badge light badge-danger">Canceled</span></td>
                                                 <td>$21.56</td>
+                                                <td>
+													<div class="dropdown">
+														<button type="button" class="btn btn-danger light sharp" data-bs-toggle="dropdown">
+
+                                                <td>MAURO</td>
+                                                <td>DIEZ</td>
+                                                <td>SISTEMAS</td>
+                                                <td><span class="badge light badge-success">REGULAR</span></td>
+                                                <td>$20.000</td>
+                                                <td>
+													<div class="dropdown">
+														<button type="button" class="btn btn-success light sharp" data-bs-toggle="dropdown">
+															<svg width="20px" height="20px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
+														</button>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+												</td>
+                                            </tr>
+											<tr>
+                                                <td><strong>03</strong></td>
+
+                                                <td>Mr. Bobby</td>
+                                                <td>Dr. Jackson</td>
+                                                <td>01 August 2020</td>
+                                                <td><span class="badge light badge-warning">Pending</span></td>
+                                                <td>$21.56</td>
+                                                <td>MARIANA</td>
+                                                <td>BENITEZ</td>
+                                                <td>SISTEMAS</td>
+                                                <td><span class="badge light badge-danger">IRREGULAR</span></td>
+                                                <td>$20.000</td>
                                                 <td>
 													<div class="dropdown">
 														<button type="button" class="btn btn-danger light sharp" data-bs-toggle="dropdown">
@@ -946,12 +1027,12 @@
 												</td>
                                             </tr>
 											<tr>
-                                                <td><strong>03</strong></td>
-                                                <td>Mr. Bobby</td>
-                                                <td>Dr. Jackson</td>
-                                                <td>01 August 2020</td>
-                                                <td><span class="badge light badge-warning">Pending</span></td>
-                                                <td>$21.56</td>
+                                                <td><strong>04</strong></td>
+                                                <td>IGNACIO</td>
+                                                <td>PEREZ</td>
+                                                <td>A.SISTEMAS</td>
+                                                <td><span class="badge light badge-warning">PENDIENTE</span></td>
+                                                <td>$22.000</td>
                                                 <td>
 													<div class="dropdown">
 														<button type="button" class="btn btn-warning light sharp" data-bs-toggle="dropdown">
@@ -970,7 +1051,8 @@
                             </div>
                         </div>
                     </div>
-					
+
+
                         
                     </div>
                 </div>
