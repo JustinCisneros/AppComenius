@@ -15,7 +15,10 @@
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- PAGE TITLE HERE -->
+	<title>Tabla-Alumnos</title>
+
 	<title>Admin Dashboard</title>
+
 	
 	<!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
@@ -798,6 +801,18 @@
 				<ul class="metismenu" id="menu">
                     <li><a class="has-arrow " href="javascript:void()" aria-expanded="false">
 							<i class="fas fa-home"></i>
+
+							<span class="nav-text">Home</span>
+						</a>
+                        <ul aria-expanded="false">
+							<li><a href="index.html">Resumen</a></li>
+							<li><a href="project-page.html">Proyectos</a></li>
+							<li><a href="kanban.html">Kanban</a></li>
+							<li><a href="contacts.html">Contactos</a></li>
+					
+							<li><a href="calendar-page.html">Calendario</a></li>
+							<li><a href="message.html">Mensajes</a></li>	
+
 							<span class="nav-text">Comenius</span>
 						</a>
                         <ul aria-expanded="false">
@@ -884,8 +899,13 @@
 					</ol>
                 </div>
                 <!-- row -->
+
+
+                <div class="row">
+
 					
 				<div class="row">
+
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
@@ -897,6 +917,14 @@
                                         <thead>
                                             <tr>
                                                 <th style="width:80px;"><strong>#</strong></th>
+
+                                                <th><strong>PATIENT</strong></th>
+                                                <th><strong>DR NAME</strong></th>
+                                                <th><strong>DATE</strong></th>
+                                                <th><strong>STATUS</strong></th>
+                                                <th><strong>PRICE</strong></th>
+                                                <th></th>
+
                                                 <th><strong>NOMBRE</strong></th>
                                                 <th><strong>APELLIDO</strong></th>
                                                 <th><strong>CARRERA</strong></th>
@@ -920,6 +948,13 @@
                                         <tbody>
                                             <tr>
                                                 <td><strong>01</strong></td>
+
+                                                <td>Mr. Bobby</td>
+                                                <td>Dr. Jackson</td>
+                                                <td>01 August 2020</td>
+                                                <td><span class="badge light badge-success">Successful</span></td>
+                                                <td>$21.56</td>
+
                                                 <td>JUSTIN</td>
                                                 <td>CISNEROS</td>
                                                 <td>SISTEMAS</td>
@@ -939,6 +974,16 @@
                                             </tr>
 											<tr>
                                                 <td><strong>02</strong></td>
+
+                                                <td>Mr. Bobby</td>
+                                                <td>Dr. Jackson</td>
+                                                <td>01 August 2020</td>
+                                                <td><span class="badge light badge-danger">Canceled</span></td>
+                                                <td>$21.56</td>
+                                                <td>
+													<div class="dropdown">
+														<button type="button" class="btn btn-danger light sharp" data-bs-toggle="dropdown">
+
                                                 <td>MAURO</td>
                                                 <td>DIEZ</td>
                                                 <td>SISTEMAS</td>
@@ -958,6 +1003,12 @@
                                             </tr>
 											<tr>
                                                 <td><strong>03</strong></td>
+
+                                                <td>Mr. Bobby</td>
+                                                <td>Dr. Jackson</td>
+                                                <td>01 August 2020</td>
+                                                <td><span class="badge light badge-warning">Pending</span></td>
+                                                <td>$21.56</td>
                                                 <td>MARIANA</td>
                                                 <td>BENITEZ</td>
                                                 <td>SISTEMAS</td>
@@ -1000,6 +1051,8 @@
                             </div>
                         </div>
                     </div>
+
+
                         
                     </div>
                 </div>
